@@ -19,7 +19,7 @@ var urlStore = make(map[string]string) // In-memory store
 
 const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-// Generates a random string of length 6
+// Generates a random string of length 6 - Vishal did this change
 func generateShortCode() string {
 	rand.Seed(time.Now().UnixNano())
 	code := make([]byte, 6)
